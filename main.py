@@ -1,5 +1,5 @@
 def main():
-    book_path="books/frankenstein.txt"
+    book_path=input("Insert path to book")
     text=get_book_text(book_path)
     word_count=count_words(text)
     char_dictionary=count_characters(text)
